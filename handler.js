@@ -481,9 +481,9 @@ ${global.owner.map((v, i) => '*Contacto ' + (i + 1) + ':* wa.me/' + v).join('\n'
     if (chat.delete) return
     await this.reply(m.key.remoteJid, `
 ━━━━⬣  𝘼𝙉𝙏𝙄 𝘿𝙀𝙇𝙀𝙏𝙀  ⬣━━━━
-*▢ Nombre:* @${m.participant.split`@`[0]}
-*▢ Enviando el mensaje..*
-*▢ Para desactivar esta función envie el comando:* #disable delete
+*♡ Nombre:* @${m.participant.split`@`[0]}
+*♡ Enviando el mensaje..*
+*♡ Para desactivar esta función envie el comando:* #disable delete
 ━━━━⬣  𝘼𝙉𝙏𝙄 𝘿𝙀𝙇𝙀𝙏𝙀  ⬣━━━━
 `.trim(), m.message, {
       contextInfo: {
@@ -535,7 +535,7 @@ global.dfail = (type, m, conn) => {
     private: '*❰ ⚠️ ❱ Este comando solo se puede usar en el chat privado del número del Bot*',
     admin: '*❰ ⚠️ ❱ Este comando es solo para Administradores del grupo*',
     botAdmin: '*❰ ⚠️ ❱ Ascender el Bot a Admin para usar este comando*',
-    unreg: '*❰ ⚠️ ❱ Regístrese para utilizar esta función escribiendo:*\n\n*#registrar nombre.edad*\n\n*Ejemplo:*\n*#registrar GataDios.18*\n\n*Este registro se solicita con el fin de que el Bot no se sature*\n\n*Nota: No escriba los "*" ni los "_"*\n\n*Nota: El registro fue quitado, si algun comando le pide registro favor de reportarlo*'
+    unreg: '*❰ ⚠️ ❱ Regístrese para utilizar esta función escribiendo:*\n\n*#registrar nombre.edad*\n\n*Ejemplo:*\n*#registrar KenjiBot.18*\n\n*Este registro se solicita con el fin de que el Bot no se sature*\n\n*Nota: No escriba los "*" ni los "_"*\n\n*Nota: El registro fue quitado, si algun comando le pide registro favor de reportarlo*'
   }[type]
   if (msg) return m.reply(msg)
 }
